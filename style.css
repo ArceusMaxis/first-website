@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*{
+    margin:0;
+    padding:0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: rgb(25,25,25);
+}
+.heading{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.title1{
+    display: block;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 50pt;
+    font-family: 'Open Sans', monospace;
+    font-weight: bold;
+}
+.title2{
+    display: block;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 20pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+.go{
+    margin: 50px auto;
+    display: block;
+    width: 100px;
+    height: 30px;
+    border: 3px solid blanchedalmond;
+    background-color: rgba(0,0,0,0);
+    color: blanchedalmond;
+    font-size: 12pt;
+    font-family: 'Open Sans', monospace;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.go:hover{
+    background-color:blanchedalmond;
+    color: rgba(0,0,0,1);
+    cursor:pointer;
+}
